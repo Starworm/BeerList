@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="bottleImage">
+    <img [src]="beerEl.image_url"
+         [ngStyle]="{
+          width: clickedBeerId === beerLocalId ? '100px' : '20px'
+         }"
+         alt="some beer">
+  </div>
+  <div class="textInfo">
+    <h2 class="beerName">{{beerEl.beer_name}}</h2>
+    <div class="descriptionContainer">
+      <article class="descriptionText"
+               [hidden]="clickedBeerId !== beerLocalId">
+        {{beerEl.beer_description}}
+      </article>
+    </div>
+    <div class="tagContainer">
+      <i class="tagImg"></i>
+      <span class="beerTagline">{{beerEl.tagline}}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+.container {
+
+  display: flex;
+  border: 5px solid indianred;
+  border-radius: 20px;
+  margin: 10px;
+
+  .bottleImage {
+    margin: 10px 20px 10px 20px;
+  }
+
+  .textInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .descriptionContainer {
+      display: flex;
+      height: 100%;
+
+      .descriptionText {
+        margin-left: 16px;
+        font-size: 20px;
+      }
+    }
+
+    .tagContainer {
+      display: flex;
+      margin: 10px 0 10px 0;
+
+      .beerTagline {
+        font-size: 20px;
+      }
+
+      .tagImg {
+        background: url('/assets/images/label.svg') no-repeat center;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+    }
+
+    .beerName {
+      margin-left: 16px;
+    }
+  }
+}

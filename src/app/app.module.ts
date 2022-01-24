@@ -6,7 +6,6 @@ import {HttpClientModule} from "@angular/common/http";
 import { BeerItemComponent } from './shared/components/beer-item/beer-item.component';
 import {CommonModule} from "@angular/common";
 
-import {NgxPaginationModule} from 'ngx-pagination';
 import {FormsModule} from "@angular/forms";
 import {HoverDirective} from "./shared/directives/hover.directive";
 import { HomeComponent } from './shared/components/home/home.component';
@@ -35,7 +34,6 @@ const appRoutes: Routes = [
     BrowserModule,
     HttpClientModule,
     CommonModule,
-    NgxPaginationModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],

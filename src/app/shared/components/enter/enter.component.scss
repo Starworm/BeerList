@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .enterSite {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 6px solid indianred;
+    background-color: #ffffff;
+    width: 25vh;
+    height: 12vh;
+    margin-top: 43px;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+
+    &:hover {
+      background-color: #f5b884;
+      -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+    }
+    .enter {
+      font-size: 30px;
+    }
+  }
+}

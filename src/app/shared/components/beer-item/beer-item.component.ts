@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {BeerInterface} from "../../interfaces/beer.interface";
 
+/** Component for displaying beer element*/
 @Component({
   selector: 'app-beer-item',
   templateUrl: './beer-item.component.html',

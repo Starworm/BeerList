@@ -1,6 +1,6 @@
 import {Directive, ElementRef, HostListener} from "@angular/core";
 
-// hover directive for changing style of hovered element
+/** Hover directive for changing style of hovered element */
 @Directive({
   selector: '[hover]'
 })
